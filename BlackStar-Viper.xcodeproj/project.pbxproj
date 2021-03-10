@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79703FA0EF93F6CE867CCB19 /* Pods_BlackStar_Viper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ADBD8ACBC8DD8ED3708B5D /* Pods_BlackStar_Viper.framework */; };
 		B44D2D7825F0114D00E2028E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D2D7725F0114D00E2028E /* AppDelegate.swift */; };
 		B44D2D7A25F0114D00E2028E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D2D7925F0114D00E2028E /* SceneDelegate.swift */; };
-		B44D2D7C25F0114D00E2028E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D2D7B25F0114D00E2028E /* ViewController.swift */; };
 		B44D2D7F25F0114D00E2028E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44D2D7D25F0114D00E2028E /* Main.storyboard */; };
 		B44D2D8125F0115200E2028E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44D2D8025F0115200E2028E /* Assets.xcassets */; };
 		B44D2D8425F0115200E2028E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44D2D8225F0115200E2028E /* LaunchScreen.storyboard */; };
+		B44D2D9225F0147300E2028E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D2D9125F0147300E2028E /* CategoryViewController.swift */; };
+		B46E9A8A25F139AA00825385 /* CategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E9A8925F139AA00825385 /* CategoryEntity.swift */; };
+		B46E9A9025F13CF600825385 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E9A8F25F13CF600825385 /* CategoryPresenter.swift */; };
+		B46E9A9325F13D3600825385 /* CategoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E9A9225F13D3600825385 /* CategoryInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03ADBD8ACBC8DD8ED3708B5D /* Pods_BlackStar_Viper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackStar_Viper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44D2D7425F0114D00E2028E /* BlackStar-Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlackStar-Viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44D2D7725F0114D00E2028E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B44D2D7925F0114D00E2028E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B44D2D7B25F0114D00E2028E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B44D2D7E25F0114D00E2028E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B44D2D8025F0115200E2028E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44D2D8325F0115200E2028E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B44D2D8525F0115200E2028E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44D2D9125F0147300E2028E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		B46E9A8925F139AA00825385 /* CategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEntity.swift; sourceTree = "<group>"; };
+		B46E9A8F25F13CF600825385 /* CategoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresenter.swift; sourceTree = "<group>"; };
+		B46E9A9225F13D3600825385 /* CategoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInteractor.swift; sourceTree = "<group>"; };
+		D2340DBA7B50A7561340C00F /* Pods-BlackStar-Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackStar-Viper.debug.xcconfig"; path = "Target Support Files/Pods-BlackStar-Viper/Pods-BlackStar-Viper.debug.xcconfig"; sourceTree = "<group>"; };
+		ED182C6CE1D3B8A3E2238807 /* Pods-BlackStar-Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackStar-Viper.release.xcconfig"; path = "Target Support Files/Pods-BlackStar-Viper/Pods-BlackStar-Viper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79703FA0EF93F6CE867CCB19 /* Pods_BlackStar_Viper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53ADA4BC1040CFB6F8173B52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03ADBD8ACBC8DD8ED3708B5D /* Pods_BlackStar_Viper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FFA3C2637B7AD00D22E7E49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2340DBA7B50A7561340C00F /* Pods-BlackStar-Viper.debug.xcconfig */,
+				ED182C6CE1D3B8A3E2238807 /* Pods-BlackStar-Viper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B44D2D6B25F0114D00E2028E = {
 			isa = PBXGroup;
 			children = (
 				B44D2D7625F0114D00E2028E /* BlackStar-Viper */,
 				B44D2D7525F0114D00E2028E /* Products */,
+				8FFA3C2637B7AD00D22E7E49 /* Pods */,
+				53ADA4BC1040CFB6F8173B52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,26 @@
 		B44D2D7625F0114D00E2028E /* BlackStar-Viper */ = {
 			isa = PBXGroup;
 			children = (
+				B46E9A8C25F139B400825385 /* CategoryVIPER */,
 				B44D2D7725F0114D00E2028E /* AppDelegate.swift */,
 				B44D2D7925F0114D00E2028E /* SceneDelegate.swift */,
-				B44D2D7B25F0114D00E2028E /* ViewController.swift */,
-				B44D2D7D25F0114D00E2028E /* Main.storyboard */,
 				B44D2D8025F0115200E2028E /* Assets.xcassets */,
 				B44D2D8225F0115200E2028E /* LaunchScreen.storyboard */,
 				B44D2D8525F0115200E2028E /* Info.plist */,
 			);
 			path = "BlackStar-Viper";
+			sourceTree = "<group>";
+		};
+		B46E9A8C25F139B400825385 /* CategoryVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				B46E9A8925F139AA00825385 /* CategoryEntity.swift */,
+				B46E9A9225F13D3600825385 /* CategoryInteractor.swift */,
+				B46E9A8F25F13CF600825385 /* CategoryPresenter.swift */,
+				B44D2D9125F0147300E2028E /* CategoryViewController.swift */,
+				B44D2D7D25F0114D00E2028E /* Main.storyboard */,
+			);
+			path = CategoryVIPER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B44D2D8825F0115200E2028E /* Build configuration list for PBXNativeTarget "BlackStar-Viper" */;
 			buildPhases = (
+				49D9FD8F0FFB0AF3763B68FB /* [CP] Check Pods Manifest.lock */,
 				B44D2D7025F0114D00E2028E /* Sources */,
 				B44D2D7125F0114D00E2028E /* Frameworks */,
 				B44D2D7225F0114D00E2028E /* Resources */,
+				B33DB79AE0E8F63214326073 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +175,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49D9FD8F0FFB0AF3763B68FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackStar-Viper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33DB79AE0E8F63214326073 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackStar-Viper/Pods-BlackStar-Viper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackStar-Viper/Pods-BlackStar-Viper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackStar-Viper/Pods-BlackStar-Viper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B44D2D7025F0114D00E2028E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B44D2D7C25F0114D00E2028E /* ViewController.swift in Sources */,
+				B46E9A9325F13D3600825385 /* CategoryInteractor.swift in Sources */,
+				B44D2D9225F0147300E2028E /* CategoryViewController.swift in Sources */,
+				B46E9A9025F13CF600825385 /* CategoryPresenter.swift in Sources */,
 				B44D2D7825F0114D00E2028E /* AppDelegate.swift in Sources */,
+				B46E9A8A25F139AA00825385 /* CategoryEntity.swift in Sources */,
 				B44D2D7A25F0114D00E2028E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +371,7 @@
 		};
 		B44D2D8925F0115200E2028E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2340DBA7B50A7561340C00F /* Pods-BlackStar-Viper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +391,7 @@
 		};
 		B44D2D8A25F0115200E2028E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED182C6CE1D3B8A3E2238807 /* Pods-BlackStar-Viper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
